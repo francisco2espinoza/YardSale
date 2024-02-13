@@ -66,11 +66,6 @@
             display: flex;
             flex-direction: column;
         }
-        .value{
-            color: var(--very-light-pink);
-            font-size: var(--md);
-            margin: 8px 0 32px 0;
-        }
         .input{
             background-color: var(--text-imput-field);
             border: none;
@@ -85,18 +80,18 @@
         .input-password {
             margin-bottom: 22px;
         }
-        .secundary--button{
-            background-color: var(--white-);
+        .primary--button{
+            background-color: var(--hospital-green);
             border-radius: 8px;
-            border: 1px solid var(--hospital-green);
-            color: var(--hospital-green);
+            border: none;
+            color: var(--white-);
             width: 100%;
             cursor: pointer;
             font-size: var(--md);
             font-weight: bold;
             height: 52px;
         }
-        .edit-button{
+        .login-button{
             margin-bottom: 30px;
             margin-top: 14px;
         }
@@ -125,7 +120,7 @@
                     <label for="password" class="label">Password</label>
                     <input type="password" class="input input-password" placeholder="**********" id="password">
                 </div>
-                <input type="submit" value="Edit" class="secundary--button edit-button">
+                <input type="submit" value="Save" class="primary--button login-button">
             </form>
         </div>
     </div>
